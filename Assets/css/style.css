@@ -1,0 +1,15 @@
+.contenedorInput{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+   
+}
+
+.input1{
+    display: grid;
+    grid-template-columns: 5px 100px;
+    gap: 15px;
+    
+}
+p,h3{
+    color: aliceblue;
+}
