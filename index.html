@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seleccion PC | Cristian Reyes</title>
+    <link rel="shortcut icon" href="/Assets/img/Status_iucn_CR_icon_blank.svg.png" type="image/x-icon">
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -16,6 +17,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body class="bg-dark">
+
+    <nav class="navbar navbar-light bg-primary ">
+      <div class="container-fluid col-10 ">
+        <a class="navbar-brand mt-2"  href="#" id="header" >
+          
+          <p>Recomendador de Pc</p>
+        </a>
+      </div>
+      <a class="navbar-brand mt-2" href="https://creyesn.github.io" target="_blank" id="header">
+        
+        <p>Cristian Reyes</p>
+      </a>
+    </nav>
+
+
+
     <div class="container">
       <form id="formulario" action="">
         <div class="contenedorInput mt-5">
@@ -64,7 +81,7 @@
             </div>
             <div class="input1 mt-2">
               <div class="">
-                <input type="radio" class="medio" name="presupuesto" />
+                <input type="radio" class="mid" name="presupuesto" />
               </div>
               <div class=""><p>Intermedio</p></div>
             </div>
@@ -76,53 +93,11 @@
             </div>
           </div>
 
-          <div>
-            <h3>Refrigeracion</h3>
-            <div class="input1 mt-3">
-              <div class=""><input class="aire" type="radio" name="refrigeracion" /></div>
-              <div class=""><p>Aire</p></div>
-            </div>
-            <div class="input1 mt-5">
-              <div class="">
-                <input class="liq" type="radio" name="refrigeracion" />
-              </div>
-              <div class=""><p>Liquida</p></div>
-            </div>
-          </div>
+          
   
-          <div class="mt-5">
-            <h3>Tamaño</h3>
-            <div class="input1 mt-2">
-              <div class=""><input class="micro" type="radio" name="tamaño" /></div>
-              <div class=""><p>Micro ATX</p></div>
-            </div>
-            <div class="input1 mt-2">
-              <div class="">
-                <input class="atx" type="radio" name="tamaño" />
-              </div>
-              <div class=""><p>ATX</p></div>
-            </div>
-            <div class="input1 mt-2">
-              <div class="">
-                <input class="exAtx" type="radio" name="tamaño" />
-              </div>
-              <div class=""><p>Extended ATX</p></div>
-            </div>
-          </div>
+          
   
-          <div class="mt-5">
-            <h3>Luces</h3>
-            <div class="input1 mt-3">
-              <div class=""><input class="RGB" type="radio" name="luces" /></div>
-              <div class=""><p>Con RGB</p></div>
-            </div>
-            <div class="input1 mt-5">
-              <div class="">
-                <input class="noRGB" type="radio" name="luces" />
-              </div>
-              <div class=""><p>Sin RGB</p></div>
-            </div>
-          </div>
+          
 
         </div>
 
@@ -133,9 +108,72 @@
         </button>
       </form>
 
-      <img class="imagen mt-5" src="" alt="">
+      <div class="contenedorInput mt-5">
+
+        <div class="card align-items-center" style="width: 12rem;">
+        <p class="textProce" style="color: black; text-align: center;"></p>
+        <a class="linkImgProce" target="_blank"><img class="imgProce" src="" alt="" height="200px" width="150px"></a>
+        <a href="" class="linkProce" target="_blank"></a>
+        </div>
+
+          <div class="card align-items-center" style="width: 12rem;">
+          <p class="textPlaca" style="color: black; text-align: center;"></p>
+          <a class="linkImgPlaca" target="_blank"><img class="imgPlaca" src="" alt="" height="200px" width="150px"></a>
+          <a href="" class="linkPlaca" target="_blank"></a>
+          </div>
+
+            <div class="card align-items-center" style="width: 12rem;">
+            <p class="textRam" style="color: black; text-align: center"></p>
+            <a class="linkImgRam" target="_blank"><img class="imgRam" src="" alt="" height="200px" width="150px"></a>
+            <a href="" class="linkRam" target="_blank"></a>
+            </div> 
+
+            <div id="grafica" class="card align-items-center" style="width: 12rem;">
+              <p class="textGrafica" style="color: black; text-align: center"></p>
+              <a class="linkImgGrafica" target="_blank"><img class="imgGrafica" src="" alt="" height="200px" width="150px"></a>
+              <a href="" class="linkGrafica" target="_blank"></a>
+              </div>
+
+      </div>
+
+      <div class="contenedorInput mt-5 mb-5">
+
+        <div class="card align-items-center" style="width: 12rem;">
+          <p class="textGabinete" style="color: black; text-align: center"></p>
+          <a class="linkImgGabinete" target="_blank"><img class="imgGabinete" src="" alt="" height="200px" width="150px"></a>
+          <a href="" class="linkGabinete" target="_blank"></a>
+          </div>
+
+
+          <div class="card align-items-center" style="width: 12rem;">
+          <p class="textSSD" style="color: black; text-align: center"></p>
+          <a class="linkImgSSD" target="_blank"><img class="imgSSD" src="" alt="" height="200px" width="150px"></a>
+          <a href="" class="linkSSD" target="_blank"></a>
+          </div>    
+          
+          <div class="card align-items-center" style="width: 12rem;">
+            <p class="textFuente" style="color: black; text-align: center"></p>
+            <a class="linkImgFuente" target="_blank"><img class="imgFuente" src="" alt="" height="200px" width="150px"></a>
+            <a href="" class="linkFuente" target="_blank"></a>
+            </div> 
+
+      </div>   
+
+      <div class="suma mt-5">
+        <h3 class="total"></h3>
+
+      </div>
+
+      
+      
 
     </div>
+
+    <footer class="bg-primary">
+      <p class="my-1">Cristian Reyes</p>
+      <p>© 2022 Todos los derechos reservados.</p>
+    </footer>
+
 
     <script src="/Assets/js/script.js"></script>
     <!--<script
